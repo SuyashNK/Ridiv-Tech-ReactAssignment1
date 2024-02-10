@@ -1,0 +1,112 @@
+/* src/styles.css */
+
+/* Use variables to store common values */
+:root {
+  --primary-color: #4a148c;
+  --secondary-color: #ff6f00;
+  --light-color: #f3e5f5;
+  --dark-color: #212121;
+  --font-family: 'Roboto', sans-serif;
+}
+
+/* Apply a global style to the body element */
+body {
+  font-family: var(--font-family);
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the app header */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style the app main section */
+.app-main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Style the home page */
+.home-page {
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 2rem;
+}
+
+.home-page .blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.home-page .blog-list li {
+  margin: 1rem;
+}
+
+.home-page .blog-list a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Style the blog post page */
+.blog-post {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog-post h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.blog-post a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* Style the about page */
+.about-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-page a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
