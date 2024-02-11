@@ -3,23 +3,24 @@ This is a simple React blog application demonstrating routing and basic componen
 
 ## Features:
 
-List of blog posts on the home page
-Individual pages for each blog post
-About page with information about the blog and author
-Navigation using React Router
-Getting Started:
+List of blog posts on the home page <br>
+Individual pages for each blog post <br>
+About page with information about the blog and author <br>
+Navigation using React Router <br>
 
-**Clone this repository**: git clone https://github.com/SuyashNK/Ridiv-Tech-ReactAssignment1.git
-**Install dependencies**: npm install
-**Start the development server**: npm start
-Open **http://localhost:3000** in your browser
+## Getting Started:
+
+**Clone this repository**: git clone https://github.com/SuyashNK/Ridiv-Tech-ReactAssignment1.git <br>
+**Install dependencies**: npm install <br>
+**Start the development server**: npm start <br>
+Open **http://localhost:3000** in your browser <br>
 
 
 ## Project Structure:
 
-app.js: Main application component
-styles.css: Global styles for the application
-blogPosts.js: Sample data for blog posts
+app.js: Main application component <br>
+styles.css: Global styles for the application <br>
+blogPosts.js: Sample data for blog posts <br>
 
 ## Technology Stack:
 
